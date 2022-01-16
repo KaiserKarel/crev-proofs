@@ -42,3 +42,27 @@ review:
 RKeDsHBO9ARkv4Au0j-E1gYnCh_hVtMZDFspGUYtWttd7YiDBx1TJjnKqabgszFzgqd5CIXKmhwolruOnymuCQ
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2022-01-16T16:55:03.037030937+01:00"
+from:
+  id-type: crev
+  id: h2qAMGy777KobqCn93bmCJ2EFJUGTc42Y_SHkFDegTw
+  url: "https://github.com/kaiserkarel/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: crunchy
+  version: 0.2.2
+  revision: 1bf90cf2d0a8cfcb2c5592275a23ab028dff6468
+  digest: 2muAdl3Hf9nrKCfCRdTDNA2Rens-JJcabzTkqZg-q7E
+review:
+  thoroughness: high
+  understanding: high
+  rating: positive
+comment: |-
+  Uses build.rs to generate all code, as recursion can be configured. 
+----- SIGN CREV PROOF -----
+HTZJg_rXJ-DCKPmxY2yT8S73AjEJRVRwNkwMa3LOvzvCzNdWrPGS5IKMhMYq4tfU708maz1unu7BfFcYt4O0Bw
+----- END CREV PROOF -----
+
