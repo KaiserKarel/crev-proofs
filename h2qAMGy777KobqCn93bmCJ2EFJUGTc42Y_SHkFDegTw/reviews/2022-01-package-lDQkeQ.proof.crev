@@ -117,31 +117,6 @@ HQrjvWOqem26KY-fwZrRV6bhXKUDJyqkKQIaJS24ADR6SjArChpid_UDwUIw72LMF-6sQ2Va96Zu0Jwh
 ----- BEGIN CREV PROOF -----
 kind: package review
 version: -1
-date: "2022-01-16T17:43:55.981391986+01:00"
-from:
-  id-type: crev
-  id: h2qAMGy777KobqCn93bmCJ2EFJUGTc42Y_SHkFDegTw
-  url: "https://github.com/kaiserkarel/crev-proofs"
-package:
-  source: "https://crates.io"
-  name: merlin
-  version: 2.0.1
-  revision: 1dda9ddee41f7a3dcd933a5f85f5ca523611ee70
-  digest: Swt3k-AWiPJ1kAW3OQU4fXeCUo-Tbe46FAFaHbvnr_0
-review:
-  thoroughness: high
-  understanding: medium
-  rating: positive
-comment: |-
-  Little malicious potential, no build.rs and minimal dependencies. Did not evaluate the correctness of the cryptography.
-          
------ SIGN CREV PROOF -----
-owS-aGWHfQCSH1kpyi8HSFiYDNxXifTTNX2Jw4H_H_SISolZ9csLfDU7lqdENvw_aHJ0kdb51skuJa4-vYmbCQ
------ END CREV PROOF -----
-
------ BEGIN CREV PROOF -----
-kind: package review
-version: -1
 date: "2022-01-17T09:58:46.738068198+01:00"
 from:
   id-type: crev
@@ -190,5 +165,30 @@ comment: |-
           
 ----- SIGN CREV PROOF -----
 J7dSFXkUONidc4ndiJhLP6uR3ytds3TAV7V7_-5JzhqSAl5056A0F9_cTtRauhvqofCoAa4jSzxclwQG2bQWAA
+----- END CREV PROOF -----
+
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2022-01-17T16:11:13.592508390+01:00"
+from:
+  id-type: crev
+  id: h2qAMGy777KobqCn93bmCJ2EFJUGTc42Y_SHkFDegTw
+  url: "https://github.com/kaiserkarel/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: merlin
+  version: 2.0.1
+  revision: 1dda9ddee41f7a3dcd933a5f85f5ca523611ee70
+  digest: YOUuKaR3WdvWeuubEN6VtG2WW1gDfmdTSpUdJ9Whkx0
+review:
+  thoroughness: high
+  understanding: medium
+  rating: positive
+comment: |-
+  Little malicious potential, no build.rs and minimal dependencies. Did not evaluate the correctness of the cryptography.
+          
+----- SIGN CREV PROOF -----
+AagoEEey4R4wTDBvDE_qVfJF5y-XnwGZpwKT32KlsPafRQJUyQ8SXLhQRGjwUxtKMBfgRQ5yHP4ZdZFYHaLbAA
 ----- END CREV PROOF -----
 
