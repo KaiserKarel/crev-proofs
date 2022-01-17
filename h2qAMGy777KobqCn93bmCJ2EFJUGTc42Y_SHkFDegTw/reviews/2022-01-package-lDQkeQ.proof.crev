@@ -139,3 +139,29 @@ comment: |-
 owS-aGWHfQCSH1kpyi8HSFiYDNxXifTTNX2Jw4H_H_SISolZ9csLfDU7lqdENvw_aHJ0kdb51skuJa4-vYmbCQ
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2022-01-17T09:58:46.738068198+01:00"
+from:
+  id-type: crev
+  id: h2qAMGy777KobqCn93bmCJ2EFJUGTc42Y_SHkFDegTw
+  url: "https://github.com/kaiserkarel/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: tiny-keccak
+  version: 2.0.2
+  revision: f034411460d0012925052017c1658b3ce9cda532
+  digest: q0lo6dfv34EeK92o9kQWcpNnpbatz06CiswxfbtSLmY
+review:
+  thoroughness: high
+  understanding: medium
+  rating: positive
+comment: |-
+  Misses explanations on the use of unsafe. No backdoors and little potential. No dependencies.
+  
+  Coverage is lacking, no proptests nor fuzzing.
+----- SIGN CREV PROOF -----
+9DpdDFE77BZAD05U8cyVaESlFhABIW8l_mkDB0BzlqZj4gPKO680yBu_8KtXOGnGM8ZTNOyULAkxTdoyvyxPDw
+----- END CREV PROOF -----
+
