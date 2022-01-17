@@ -192,3 +192,28 @@ comment: |-
 AagoEEey4R4wTDBvDE_qVfJF5y-XnwGZpwKT32KlsPafRQJUyQ8SXLhQRGjwUxtKMBfgRQ5yHP4ZdZFYHaLbAA
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2022-01-17T16:25:02.775329914+01:00"
+from:
+  id-type: crev
+  id: h2qAMGy777KobqCn93bmCJ2EFJUGTc42Y_SHkFDegTw
+  url: "https://github.com/kaiserkarel/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: merlin
+  version: 2.0.1
+  revision: 1dda9ddee41f7a3dcd933a5f85f5ca523611ee70
+  digest: WOTpfFTRIfGpSz5EjVtFYqICllozWRxIKxFvzbja3LA
+review:
+  thoroughness: high
+  understanding: medium
+  rating: positive
+comment: |-
+  Little malicious potential, no build.rs and minimal dependencies. Did not evaluate the correctness of the cryptography.
+          
+----- SIGN CREV PROOF -----
+2JShbZwPzUL4w62ErbZddeIfSb5hJ82V9fV049cX9r6zk2MLckltw0RHB3CxcrCc_C0gtiPWiIDnHTqjm7z3Bg
+----- END CREV PROOF -----
+
