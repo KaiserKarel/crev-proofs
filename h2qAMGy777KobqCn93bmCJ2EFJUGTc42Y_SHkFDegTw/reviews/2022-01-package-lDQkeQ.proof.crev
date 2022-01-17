@@ -244,3 +244,30 @@ comment: |-
 e4gIJtXxJhKADHtsaURRkefWtNvGxgXztky7ArE0jp-m6jIgRGpYF5umjVglT9lyclrDUIiP8K7kUdgiAjv0CQ
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2022-01-17T16:30:34.446233494+01:00"
+from:
+  id-type: crev
+  id: h2qAMGy777KobqCn93bmCJ2EFJUGTc42Y_SHkFDegTw
+  url: "https://github.com/kaiserkarel/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: ordered-float
+  version: 1.1.1
+  revision: ebbbb4711e9d20954136bedc4f4a74e89bb455ae
+  digest: bu2qc1pE8duWVuOuHvL10qKfQVgBL6fU0XlYKxB1dpU
+review:
+  thoroughness: high
+  understanding: high
+  rating: strong
+comment: |-
+  malicious potential: low
+  file-read/write: does not access files
+  Unsafe: uses some unsafe, which does not trigger UB
+          
+----- SIGN CREV PROOF -----
+BBT13yT6YI9AoxNe5mr19P7QOyy_jbLylM8YYtTv-7dGB9Vtsct58SZDf9tUvgJLh2xXLhLaiZ18qi2DvWDABQ
+----- END CREV PROOF -----
+
