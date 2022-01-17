@@ -393,3 +393,27 @@ comment: |-
 Vv74lu33JDVe2EwEN831nVJaK1R9-fXbbdtojvHX9t5tYFMMkchzKgPpPwFu_Qfk2Axf_g3YGrdsUyEDyN7lDA
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2022-01-17T20:12:07.044612863+01:00"
+from:
+  id-type: crev
+  id: h2qAMGy777KobqCn93bmCJ2EFJUGTc42Y_SHkFDegTw
+  url: "https://github.com/kaiserkarel/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: color-eyre
+  version: 0.5.11
+  revision: 7009a52530cd0442675b9f3b9595d3a28b1fcfe0
+  digest: BgcBa0DPuSl2gKxG7jrXgAfpM1JLBimXVwJI0lvvCQk
+review:
+  thoroughness: medium
+  understanding: high
+  rating: positive
+comment: |-
+  A very commonly used crate by the community. Has no backdoors nor obvious attack vectors.
+----- SIGN CREV PROOF -----
+OMCHfWinY7kn_P678FHTWMdRIqiTm3nRFJNsomy501xg1XRiAOZWLnssB5drgLNYg-GTqg7AcmRSz0MJnl3JAQ
+----- END CREV PROOF -----
+
