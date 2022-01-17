@@ -271,3 +271,27 @@ comment: |-
 BBT13yT6YI9AoxNe5mr19P7QOyy_jbLylM8YYtTv-7dGB9Vtsct58SZDf9tUvgJLh2xXLhLaiZ18qi2DvWDABQ
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2022-01-17T16:34:31.239492749+01:00"
+from:
+  id-type: crev
+  id: h2qAMGy777KobqCn93bmCJ2EFJUGTc42Y_SHkFDegTw
+  url: "https://github.com/kaiserkarel/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: num-traits
+  version: 0.2.14
+  revision: e8da6fe581f0e14a6322c5d51f57bec641772dac
+  digest: 4QK2WIZTv-mo0lLXElTQVjdmbN3B2k2gw5BCrzVLgq4
+review:
+  thoroughness: medium
+  understanding: medium
+  rating: positive
+comment: |-
+  No backdoors etc found, mainly looked at risks for supply-chain attacks.
+----- SIGN CREV PROOF -----
+lDxclQ2XxIqRnzaBMpvUJHk_JWmGdWF-9TWyOgVOO-U0yIn1mALVZUucJR1SI3ULnn62fE7AZR8iXcbsIWClDA
+----- END CREV PROOF -----
+
