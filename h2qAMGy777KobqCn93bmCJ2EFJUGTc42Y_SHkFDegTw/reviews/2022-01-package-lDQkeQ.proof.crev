@@ -345,3 +345,27 @@ comment: |-
 SQvavkwYH5NZclfrDXia6kdIGpdwc3UUKWDnpc5hwPzX2A1iBsDv2nUkpp2GjN-_pZLyn5gCV0Q6WoJaYdbJDA
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2022-01-17T16:59:00.235423020+01:00"
+from:
+  id-type: crev
+  id: h2qAMGy777KobqCn93bmCJ2EFJUGTc42Y_SHkFDegTw
+  url: "https://github.com/kaiserkarel/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: object
+  version: 0.27.1
+  revision: 0a4ab6d622ff7726be7feea23ddb3b05e26a2610
+  digest: e520a-N64svo29SR7UkkV8OtAvRNgKW9vsT5YJdg_cE
+review:
+  thoroughness: medium
+  understanding: medium
+  rating: positive
+comment: |-
+  gimli is an organisation from reputable rust contributors. Object itself is maintained by Amanieu and Alex, who are both part of the rust team.
+----- SIGN CREV PROOF -----
+vVhn2m5nEDjL2l8uPdT9O9S3ntptBsPQIz15mE5z-ENllkKw4DtD7jUsoRMmBX_2elvxNjm4ls3i3K2ODUA8Bg
+----- END CREV PROOF -----
+
