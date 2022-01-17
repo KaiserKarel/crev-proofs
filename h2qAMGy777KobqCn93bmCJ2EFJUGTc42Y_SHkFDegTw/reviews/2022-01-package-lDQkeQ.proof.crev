@@ -321,3 +321,27 @@ comment: |-
 naO3NzJUMA1XkofT-MJdWtQ7XeAccs4pdbWI6qeObU_6tNXXsS4nH_zjZz7NZUWQ6yUn1ExB9PuEsxybL_qcAQ
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2022-01-17T16:38:29.018822230+01:00"
+from:
+  id-type: crev
+  id: h2qAMGy777KobqCn93bmCJ2EFJUGTc42Y_SHkFDegTw
+  url: "https://github.com/kaiserkarel/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: subtle
+  version: 2.4.1
+  revision: b4b070c3faf87cb8f324bd0ed0a5e5ec32d3a5b0
+  digest: S-38NtZMMbFEq3wESbDFE6X9DItPX8dtSKjSEM5gujc
+review:
+  thoroughness: medium
+  understanding: high
+  rating: positive
+comment: |-
+  Checked for backdoors and unsafety. Seems to not contain UB, however it has some incorrect comments explaining why it is safe.
+----- SIGN CREV PROOF -----
+SQvavkwYH5NZclfrDXia6kdIGpdwc3UUKWDnpc5hwPzX2A1iBsDv2nUkpp2GjN-_pZLyn5gCV0Q6WoJaYdbJDA
+----- END CREV PROOF -----
+
