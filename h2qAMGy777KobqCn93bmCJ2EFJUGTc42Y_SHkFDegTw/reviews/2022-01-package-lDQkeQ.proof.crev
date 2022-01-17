@@ -369,3 +369,27 @@ comment: |-
 vVhn2m5nEDjL2l8uPdT9O9S3ntptBsPQIz15mE5z-ENllkKw4DtD7jUsoRMmBX_2elvxNjm4ls3i3K2ODUA8Bg
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2022-01-17T19:30:18.115367838+01:00"
+from:
+  id-type: crev
+  id: h2qAMGy777KobqCn93bmCJ2EFJUGTc42Y_SHkFDegTw
+  url: "https://github.com/kaiserkarel/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: if-watch
+  version: 0.2.2
+  revision: 4d0bb12685e41e8c08a4722dc1b22d9a8e9d1cba
+  digest: 3ItXx8KY-wKJS3W2I7bq04XGM6_LDqRP6Uj3zvmYEAQ
+review:
+  thoroughness: high
+  understanding: medium
+  rating: positive
+comment: |-
+  No backdoors, but potential for malicious code as it interacts with sockets and network.
+----- SIGN CREV PROOF -----
+Vv74lu33JDVe2EwEN831nVJaK1R9-fXbbdtojvHX9t5tYFMMkchzKgPpPwFu_Qfk2Axf_g3YGrdsUyEDyN7lDA
+----- END CREV PROOF -----
+
